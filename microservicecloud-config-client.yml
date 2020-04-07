@@ -3,14 +3,14 @@ spring:
     active: dev
 ---
 server:
- port: 7001 
+ port: 8001 
 spring:
  profiles: dev
  application: 
   name: microservicecloud-config-client
 ---
 server:
- port: 7001
+ port: 8001
 spring:
  profiles: test
  application: 
