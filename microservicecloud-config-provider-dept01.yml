@@ -17,7 +17,7 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://106.13.21.186:3306/cloudDB01 #数据库连接地址，*****注意库名 db01***************
     username: root
-    password: root
+    password: admin123
     dbcp2:
       min-idle: 5
       initial-size: 5
