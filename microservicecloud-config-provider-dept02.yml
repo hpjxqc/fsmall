@@ -29,7 +29,7 @@ eureka:
     service-url: 
       defaultZone: http://eurekaServer01.com:7001/eureka/,http://eurekaServer02.com:7002/eureka/,http://eurekaServer03.com:7003/eureka/
   instance:
-    instance-id: microservicecloud-dept8001-hystrix
+    instance-id: microservicecloud-dept8002-hystrix
     prefer-ip-address: true
     
 info:
@@ -42,7 +42,7 @@ management:
   endpoints: 
     web:
       exposure: 
-        include: hystrix.stream
+        include: hystrix8002.stream
 ---
 server:
   port: 8002
@@ -71,7 +71,7 @@ eureka:
     service-url: 
       defaultZone: http://eurekaServer01.com:7001/eureka/,http://eurekaServer02.com:7002/eureka/,http://eurekaServer03.com:7003/eureka/
   instance:
-    instance-id: microservicecloud-dept8001-hystrix
+    instance-id: microservicecloud-dept8002-hystrix
     prefer-ip-address: true
     
 info:
@@ -84,4 +84,4 @@ management:
   endpoints: 
     web:
       exposure: 
-        include: hystrix.stream
+        include: hystrix8002.stream
