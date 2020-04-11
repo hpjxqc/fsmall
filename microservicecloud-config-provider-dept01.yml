@@ -42,7 +42,7 @@ management:
   endpoints: 
     web:
       exposure: 
-        include: hystrix.stream
+        include: hystrix8001.stream
 ---
 server:
   port: 8001
@@ -84,4 +84,4 @@ management:
   endpoints: 
     web:
       exposure: 
-        include: hystrix.stream
+        include: hystrix8001.stream
