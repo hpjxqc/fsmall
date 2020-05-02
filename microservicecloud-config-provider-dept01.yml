@@ -45,7 +45,7 @@ management:
         include: hystrix8001.stream
         
 emp:
-  name: zhangshan
+  name: lisi
 ---
 server:
   port: 8001
