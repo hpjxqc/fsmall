@@ -36,13 +36,6 @@ info:
   app.name: happiness-microservicecloud
   company.name: www.happiness.com
   build.artifactId: $project.artifactId$
-  
-# 在被监控服务上添加暴露端点 
-management: 
-  endpoints: 
-    web:
-      exposure: 
-        include: hystrix8001.stream
         
 emp:
   name: lisi
@@ -81,10 +74,3 @@ info:
   app.name: happiness-microservicecloud
   company.name: www.happiness.com
   build.artifactId: $project.artifactId$
-  
-# 在被监控服务上添加暴露端点 
-management: 
-  endpoints: 
-    web:
-      exposure: 
-        include: hystrix8001.stream
