@@ -43,6 +43,9 @@ management:
     web:
       exposure: 
         include: hystrix8001.stream
+        
+emp:
+  name: zhangshan
 ---
 server:
   port: 8001
