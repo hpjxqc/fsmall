@@ -38,7 +38,7 @@ info:
   build.artifactId: $project.artifactId$
         
 emp:
-  name: lisi
+  name: 王五
 ---
 server:
   port: 8001
